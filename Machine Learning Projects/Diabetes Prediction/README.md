@@ -107,6 +107,30 @@ For example:
 
 **Output:** *The person is NOT diabetic.*
 
+## Project Interface
+
+Below are visuals showcasing the interface of the **Diabetes Predictive System**, highlighting its user-friendly design and functionality:
+
+
+**2. Prediction Output** 
+
+After input submission, the system processes the data and provides an accurate prediction indicating whether the individual is diabetic or not.
+
+![image](https://github.com/user-attachments/assets/b93add4c-4956-4c5e-8d17-77da03c24531)
+</br>
+
+![image](https://github.com/user-attachments/assets/d9c68598-4fde-4b99-a139-8291386d8dce)
+</br>
+
+![image](https://github.com/user-attachments/assets/d1bd6d3d-315c-4592-9af3-089a24d3ae3b)
+</br>
+
+![image](https://github.com/user-attachments/assets/389e7d71-bac9-4fba-afae-e88b421578dc)
+</br>
+
+
+
+
 ## Conclusion
 
 This project demonstrates the use of machine learning for predicting diabetes and showcases how such models can be deployed in real-time using Gradio to create interactive interfaces. With accurate predictions and a user-friendly interface, this system can help individuals assess their likelihood of having diabetes based on health metrics.
@@ -117,7 +141,7 @@ This project demonstrates the use of machine learning for predicting diabetes an
 * **Web Deployment:** Host the Gradio app on a server for wider access.
 * **User Input Validation:** Add more robust error handling and input validation.
 
-##License
+## License
 
 This project is licensed under the MIT License.
 
