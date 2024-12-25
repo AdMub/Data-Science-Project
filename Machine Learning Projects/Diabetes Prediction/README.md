@@ -122,6 +122,14 @@ For example:
 
 Below are visuals showcasing the interface of the **Diabetes Predictive System**, highlighting its user-friendly design and functionality:
 
+**1. Input Section**
+The interface allows users to input eight comma-separated numerical values corresponding to the medical features required for the prediction.
+
+![image](https://github.com/user-attachments/assets/28ca3823-75d1-4e8d-82d9-83b1b374110d)
+</br>
+
+![image](https://github.com/user-attachments/assets/5e20084d-3ac8-46d2-8f6a-8ddb6d11a586)
+</br>
 
 **2. Prediction Output** 
 
@@ -140,7 +148,15 @@ After input submission, the system processes the data and provides an accurate p
 </br>
 
 
+**3. Error Handling**
 
+The interface is designed to handle errors gracefully, ensuring users receive meaningful feedback if inputs are invalid or improperly formatted.
+
+![image](https://github.com/user-attachments/assets/11459644-1f11-4a9e-9b1a-7eb7816d58af)
+</br>
+
+![image](https://github.com/user-attachments/assets/5d9c4582-a162-4a75-a754-a40206a63e81)
+</br>
 
 ## Conclusion
 
@@ -156,3 +172,4 @@ This project demonstrates the use of machine learning for predicting diabetes an
 
 This project is licensed under the MIT License.
 
+🌟💡 Empowering Health Decisions Through AI! 🤖❤️
