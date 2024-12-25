@@ -1,8 +1,18 @@
 # Sonar Mines vs. Rocks Classification Project
 
+![DALL·E 2024-12-25 07 11 07 - An underwater scene showing a sonar device scanning a seabed  The sonar waves are clearly visible, differentiating between a hidden underwater mine an](https://github.com/user-attachments/assets/4ef795ff-9243-4e25-bd5f-e63501fa5ea3)
+</br>
+
+![image](https://github.com/user-attachments/assets/5fa1d5c0-2b25-4e0f-80b0-bcf53e5a6ead)
+</br>
+
 ## Project Overview
 
 This project focuses on building a machine learning model to classify sonar signals bounced off metal cylinders (mines) and rocks. Using the Sonar dataset, the project implements data analysis, preprocessing, model training, and evaluation techniques to create an effective classification system. The project employs logistic regression as the core classification algorithm.
+
+# Work Flow
+![image](https://github.com/user-attachments/assets/4988a241-fb75-46b5-a2ae-48756f0ca083)
+
 
 ## Dataset
 
