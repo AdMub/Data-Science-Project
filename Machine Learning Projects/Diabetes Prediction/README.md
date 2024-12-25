@@ -1,5 +1,11 @@
 # Diabetes Predictive System
 
+![DALL·E 2024-12-25 12 44 07 - A modern, professional graphic of a diabetes prediction system interface  The image should include a user entering data into a simple,](https://github.com/user-attachments/assets/113fde1c-582b-49e3-98a2-98625429d60e)
+</br>
+
+![Annotation 2024-12-25 073703](https://github.com/user-attachments/assets/535e824a-375e-426b-9a37-d66774ff5df6)
+</br>
+
 ## Overview
 
 This project is a machine learning-based predictive system designed to determine whether a person is diabetic or not, based on certain health features. The model uses a dataset containing medical details of individuals and employs Support Vector Machine (SVM) as the classifier. The system has been integrated with a user-friendly Gradio interface that allows real-time predictions based on the input features.
@@ -10,6 +16,11 @@ This project is a machine learning-based predictive system designed to determine
 * **Interactive Interface:** Users can input 8 numerical health features to receive a prediction (diabetic or non-diabetic).
 * **Hyperparameter Tuning:** The system includes hyperparameter tuning using GridSearchCV to optimize the model for better accuracy.
 * **Data Standardization:** The input data is standardized to ensure all features are on the same scale, improving the model’s performance.
+
+## Project Work Flow
+
+![Annotation 2024-12-25 073737](https://github.com/user-attachments/assets/e9a7ba21-bb33-4301-98f5-85d28e876301)
+</br>
 
 ## Dataset
 
