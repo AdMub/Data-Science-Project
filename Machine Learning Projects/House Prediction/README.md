@@ -2,7 +2,10 @@
 
 Welcome to the **California Housing Price Prediction** project! This project demonstrates the use of machine learning models to predict housing prices based on a dataset of housing attributes. It uses various Python libraries for data analysis, visualization, and modeling, showcasing different techniques and models.
 
-![Housing Prices Banner](https://via.placeholder.com/900x300.png?text=California+Housing+Price+Prediction+Project)
+![Housing Prices Banner](https://github.com/user-attachments/assets/34ea64c6-41a2-47fa-b0f3-cba41f2a0bf4)
+</br>
+
+![Housing Prices Banner](https://github.com/user-attachments/assets/2d5f70e3-e7d8-4f22-95c9-a40560ba418e)
 
 ---
 
@@ -10,15 +13,16 @@ Welcome to the **California Housing Price Prediction** project! This project dem
 
 1. [Introduction](#introduction)
 2. [Features](#features)
-3. [Setup and Installation](#setup-and-installation)
-4. [Data Preprocessing](#data-preprocessing)
-5. [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
-6. [Model Building](#model-building)
-7. [Hyperparameter Tuning](#hyperparameter-tuning)
-8. [Performance Evaluation](#performance-evaluation)
-9. [Comparison of Algorithms](#comparison-of-algorithms)
-10. [Conclusion](#conclusion)
-11. [Acknowledgements](#acknowledgements)
+3. [Work Flow](#work-flow)
+4. [Setup and Installation](#setup-and-installation)
+5. [Data Preprocessing](#data-preprocessing)
+6. [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
+7. [Model Building](#model-building)
+8. [Hyperparameter Tuning](#hyperparameter-tuning)
+9. [Performance Evaluation](#performance-evaluation)
+10. [Comparison of Algorithms](#comparison-of-algorithms)
+11. [Conclusion](#conclusion)
+12. [Acknowledgements](#acknowledgements)
 
 ---
 
@@ -35,6 +39,12 @@ The **California Housing Price Prediction** project utilizes the `California Hou
 - Regression modeling using advanced algorithms such as **XGBoost** and **Gradient Boosting**
 - Hyperparameter tuning with `GridSearchCV`
 - Performance comparison across multiple algorithms
+
+---
+
+## Work Flow
+
+![Work Flow Diagram](https://github.com/user-attachments/assets/20411ff0-9b9f-4b11-a3b2-9eded66f795d)
 
 ---
 
@@ -76,7 +86,8 @@ pip install -r requirements.txt
 
 ### Correlation Heatmap
 
-![Correlation Heatmap](https://via.placeholder.com/600x400.png?text=Correlation+Heatmap)
+![Correlation Heatmap](https://github.com/user-attachments/assets/344d57ec-bf45-4157-9835-32c4db524996)
+
 
 Key insights from EDA:
 - Relationships between features and the target variable
@@ -135,11 +146,12 @@ Best parameters: {
 
 #### Training Data: Actual vs Predicted Prices
 
-![Training Data Scatter](https://via.placeholder.com/600x400.png?text=Train+Actual+vs+Predicted)
+![Training Data Scatter](https://github.com/user-attachments/assets/94b0fbae-1c40-4cb3-86a4-50645a62169c)
 
 #### Test Data: Actual vs Predicted Prices
 
-![Test Data Scatter](https://via.placeholder.com/600x400.png?text=Test+Actual+vs+Predicted)
+![Test Data Scatter](https://github.com/user-attachments/assets/7a8e2916-da82-46d9-9d1c-99330f310b46)
+
 
 ---
 
