@@ -134,11 +134,11 @@ interface.launch()
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/<your-username>/fake-news-detection.git
+   git clone https://github.com/AdMub/Data-Science-Project.git
    ```
 2. Navigate to the project directory:
    ```bash
-   cd fake-news-detection
+   cd fake-news-prediction
    ```
 3. Install required dependencies:
    ```bash
