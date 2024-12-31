@@ -1,6 +1,19 @@
 # Fake News Detection
 
+![Fake News Banner](https://github.com/user-attachments/assets/63a3dbff-45fd-4b39-ad7a-db214e7ab89a)
+</br>
+
+
+![Fake News Banner](https://github.com/user-attachments/assets/40dec40b-75d5-4cb0-9a4d-43ddd94385fe)
+</br>
+
 ## Build a System to Identify Unreliable News Articles
+
+## Project Work Flow
+
+![Project Work Flow](https://github.com/user-attachments/assets/4fc41bcc-e5bd-4af6-8e09-552553ce6caf)
+</br>
+
 
 ---
 
@@ -108,10 +121,12 @@ interface.launch()
 
 ## Sample Screenshots
 ### User Interface
-![Gradio Interface](assets/ui-sample.png)
+![Gradio Interface](https://github.com/user-attachments/assets/894bea9a-abf8-4879-b70b-9c3b30d3dec9)
+</br>
 
 ### Example Predictions
-![Predictions Example](assets/predictions-example.png)
+![Predictions Example](https://github.com/user-attachments/assets/d9d40b53-3a13-41e1-b275-d79d4f34e4ab)
+
 
 ---
 
