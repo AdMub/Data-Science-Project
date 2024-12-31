@@ -1,8 +1,6 @@
-# README.md for Fake News Detection Project
+# Fake News Detection
 
-## Fake News Detection
-
-### Build a System to Identify Unreliable News Articles
+## Build a System to Identify Unreliable News Articles
 
 ---
 
