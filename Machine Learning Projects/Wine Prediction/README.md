@@ -3,8 +3,12 @@
 
 Welcome to the **Wine Quality Prediction** project! This repository showcases how to build a machine learning model to predict the quality of wine using the **Random Forest Classifier**. The project includes exploratory data analysis, model training, evaluation, and deployment via a user-friendly Gradio interface.
 
-![Wine Prediction Banner]![image](https://github.com/user-attachments/assets/acc8bacb-c9ec-43e8-91a9-3f9376464a8b)
+![Wine Prediction Banner](https://github.com/user-attachments/assets/acc8bacb-c9ec-43e8-91a9-3f9376464a8b)
+</br>
 
+
+![Wine Prediction Banner](https://github.com/user-attachments/assets/e31f11fe-29d7-4848-92dc-994790cb11e8)
+</br>
 
 ---
 
@@ -26,6 +30,19 @@ Welcome to the **Wine Quality Prediction** project! This repository showcases ho
 
 This project predicts the quality of red wine based on its physicochemical properties. The dataset consists of attributes such as acidity, sugar, pH levels, and alcohol concentration. Using **Random Forest Classifier**, we achieve high accuracy in predicting whether a wine is of good quality or not.
 
+### Project Statement
+
+![Project Statement](https://github.com/user-attachments/assets/e5dc1ebf-fcc9-44a4-8867-ec6abab0e9c0)
+</br
+
+
+### Work Flow
+
+![Work Flow](https://github.com/user-attachments/assets/997ec794-d8b7-4ea0-8440-7594360aca77)
+</br>
+
+
+
 ### Key Objectives:
 - Perform **Exploratory Data Analysis (EDA)**.
 - Build a **Random Forest Classifier** for prediction.
@@ -37,7 +54,7 @@ This project predicts the quality of red wine based on its physicochemical prope
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/wine-quality-prediction.git
+   git clone https://github.com/AdMub/Data-Science-Project.git
    cd wine-quality-prediction
    ```
 2. Install the required libraries:
@@ -100,7 +117,8 @@ The dataset used for this project is the [Red Wine Quality Dataset](https://arch
    ```bash
    python app.py
    ```
-   ![Gradio Interface Example](https://user-images.githubusercontent.com/yourimageurl/gradio-interface.jpg)
+   ![Gradio Interface Example](https://github.com/user-attachments/assets/788fb7ae-ceb1-442d-a97d-68952e599617)
+
 
 ---
 
@@ -119,11 +137,20 @@ The dataset used for this project is the [Red Wine Quality Dataset](https://arch
 ## Visualization
 
 ### Example Correlation Heatmap:
-![Correlation Heatmap](https://user-images.githubusercontent.com/yourimageurl/heatmap.jpg)
+![Correlation Heatmap](https://github.com/user-attachments/assets/f1eaa9bc-6378-408e-86fc-016e3a21bf43)
+</br>
 
 ### Example Bar Plot:
-![Bar Plot](https://user-images.githubusercontent.com/yourimageurl/barplot.jpg)
 
+-- Volatile Acidity vs Quality
+
+![Bar Plot](https://github.com/user-attachments/assets/663f86e7-98b3-43b6-844f-8d1b25a76eff)
+</br>
+
+-- Citric Acid vs Quality
+
+![Bar Plot](https://github.com/user-attachments/assets/fe8a22ed-bc35-4dd0-8193-aac1c31f8cfc)
+</br>
 ---
 
 ## License
@@ -134,6 +161,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ### Contributors
 
-- [Mubarak](https://github.com/yourgithub)
+- [AdMub](https://github.com/AdMub)
 
 Feel free to contribute or raise an issue if you encounter any problems!
