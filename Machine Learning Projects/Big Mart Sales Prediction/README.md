@@ -1,13 +1,26 @@
 # **Big Mart Sales Prediction**
 
+![Big Mart Sales Prediction](https://github.com/user-attachments/assets/b4108e8e-2c5f-487b-973f-15acc0a4314b)
+
+
+
+![Big Mart Sales Prediction](https://github.com/user-attachments/assets/2228e4b5-7703-4e18-b72b-95eee8b1b903)
+
+
 ## 📌 **Project Overview**
 This project aims to develop a machine learning model to predict sales for different products across various Big Mart outlets. The dataset includes information on product attributes, store attributes, and sales data.
+
+![Problem Statement](https://github.com/user-attachments/assets/263440b3-adbf-4b8f-873e-52aca1afce3a)
 
 ## 🚀 **Installation & Setup**
 To set up the project environment, install the necessary dependencies:
 ```sh
 pip install scikit-learn==1.2.2 xgboost pandas numpy matplotlib seaborn
 ```
+## **Work Flow**
+
+![Work Flow](https://github.com/user-attachments/assets/8333d97f-e576-4c89-99f7-fce24fb9f3ec)
+
 
 ## 📂 **Dataset Overview**
 The dataset contains **8,523 rows and 12 columns**, with attributes related to product and outlet details:
