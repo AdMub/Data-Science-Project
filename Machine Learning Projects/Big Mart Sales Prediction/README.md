@@ -102,7 +102,8 @@ print(f"Training R-squared: {r2_train:.4f}, MAE: {mae_train:.4f}")
 - **Mean Absolute Error (Test Data)**: 815.42
 
 ## 🖼 **Project Image**
-![Data Analysis](image_link_here)
+![Data Analysis](https://github.com/user-attachments/assets/239a9830-0c4e-4181-a3ce-ae0173bb9942)
+
 
 ## 📌 **Conclusion**
 - The XGBoost model provides a reasonable prediction with an **R-squared of 0.54** on test data.
