@@ -144,6 +144,9 @@ interface.launch()
 * Created an **interactive Gradio web app** for easy predictions.
 
 ## 📸 Project Image
+<img width="612" alt="output2" src="https://github.com/user-attachments/assets/55cf4127-79c2-4fd2-9309-9ed617e19f5c" />
+
+<img width="618" alt="output1" src="https://github.com/user-attachments/assets/b273e675-8e0d-4f58-a885-a2b3230ead02" />
 
 
 ## 💡 Future Improvements
