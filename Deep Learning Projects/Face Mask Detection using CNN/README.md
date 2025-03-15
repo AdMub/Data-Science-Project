@@ -1,6 +1,6 @@
 # 🏥 Face Mask Detection using Deep Learning 😷
 
-![Face Mask Detection](image_link_here)  <!-- Replace with an actual image link -->
+![Face Mask Detection](https://github.com/user-attachments/assets/766dcafa-88b1-4b7a-8d39-9df6a794d6ec)  <!-- Replace with an actual image link -->
 
 ## 📌 Project Overview
 This project implements a **Face Mask Detection System** using **Deep Learning** and **Convolutional Neural Networks (CNNs)**. The model is trained on **7,553 labeled images** to classify whether a person is **wearing a mask or not**.
