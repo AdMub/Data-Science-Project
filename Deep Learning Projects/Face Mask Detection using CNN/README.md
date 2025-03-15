@@ -29,7 +29,6 @@ mkdir -p ~/.kaggle
 cp kaggle.json ~/.kaggle/
 chmod 600 ~/.kaggle/kaggle.json
 ```
-
 Then, download and extract the dataset:
 ```sh
 !kaggle datasets download omkargurav/face-mask-dataset
@@ -44,10 +43,10 @@ pip install tensorflow keras numpy pandas matplotlib opencv-python gradio
 
 ## 📊 Data Preprocessing
 ### ✅ Image Processing Steps
-✔ **Resizing** → All images resized to **128×128 pixels**
-✔ **Normalization** → Pixel values scaled to **0-1**
-✔ **Conversion to NumPy arrays**
-✔ **Splitting Dataset → 75% Training, 25% Testing**
+✔ **Resizing** → All images resized to **128×128 pixels**  
+✔ **Normalization** → Pixel values scaled to **0-1**  
+✔ **Conversion to NumPy arrays**  
+✔ **Splitting Dataset → 75% Training, 25% Testing**  
 
 ```python
 # Convert images to numpy array
@@ -65,11 +64,10 @@ y = np.array(labels)
 
 ## 🤖 Building & Training the CNN Model
 ### ✅ CNN Architecture
-✔ **Convolutional Layers** → Extract important image features
-✔ **MaxPooling** → Reduce spatial dimensions
-✔ **Flatten** → Convert feature maps to a dense vector
-✔ **Dense Layers** → Fully connected layers for classification
-
+✔ **Convolutional Layers** → Extract important image features  
+✔ **MaxPooling** → Reduce spatial dimensions  
+✔ **Flatten** → Convert feature maps to a dense vector  
+✔ **Dense Layers** → Fully connected layers for classification  
 
 ```python
 import tensorflow as tf
@@ -95,7 +93,6 @@ history = model.fit(X_train, y_train, validation_data=(X_test, y_test), epochs=1
 
 ## 📈 Model Evaluation
 After training, the model achieves **92.43% accuracy** on test data.
-
 ```python
 loss, accuracy = model.evaluate(X_test, y_test)
 print(f"Test Accuracy: {accuracy:.4f}")
@@ -106,7 +103,6 @@ To reuse the trained model:
 ```python
 model.save("face_mask_model.h5")
 ```
-
 To load it for future use:
 ```python
 from tensorflow.keras.models import load_model
@@ -115,7 +111,6 @@ model = load_model("face_mask_model.h5")
 
 ## 🎯 Real-Time Mask Detection System
 ### 📌 Command Line Prediction
-
 ```python
 # Load and preprocess the input image
 input_img = cv2.imread("test_image.jpg")
@@ -135,7 +130,6 @@ else:
 
 ## 🌐 Deploying with Gradio
 This **Gradio** web app allows users to **upload an image** and receive a prediction.
-
 ```python
 import gradio as gr
 
@@ -159,24 +153,31 @@ interface = gr.Interface(
 interface.launch()
 ```
 
+## 🌟 Gradio Output
+#### 🟢 Detected: Wearing a Mask 😷 ✅
+<img width="785" alt="wearing mask" src="https://github.com/user-attachments/assets/7e8cc9f9-93a0-4eee-8ab1-3545ccb71d80" />
+
+#### 🔴 Detected: Not Wearing a Mask ❌
+<img width="770" alt="not wearing mask" src="https://github.com/user-attachments/assets/c035de28-f433-4680-832c-3bccf701a6ac" />
+
+
 ## 🎯 Key Features
-✅ **Deep Learning-Based Mask Detection**
-✅ **Real-Time Image Processing**
-✅ **High Accuracy Model (92.43%)**
-✅ **Web Interface Using Gradio**
-✅ **Trained on 7,553 Images**
+✅ **Deep Learning-Based Mask Detection**  
+✅ **Real-Time Image Processing**  
+✅ **High Accuracy Model (92.43%)**  
+✅ **Web Interface Using Gradio**  
+✅ **Trained on 7,553 Images**  
 
 ## 📌 Future Improvements
-🔹 Train with **larger dataset** for better generalization
-🔹 Use **Transfer Learning** (ResNet, MobileNet) for higher accuracy
-🔹 Deploy on **Flask** or **FastAPI** for real-world use
-🔹 Implement **real-time video mask** detection using OpenCV
-
+🔹 Train with **larger dataset** for better generalization  
+🔹 Use **Transfer Learning** (ResNet, MobileNet) for higher accuracy  
+🔹 Deploy on **Flask** or **FastAPI** for real-world use  
+🔹 Implement **real-time video mask** detection using OpenCV  
 
 ## ✨ Credits & Acknowledgements
-* **Dataset:** Kaggle & Google Images
-* **CNN Implementation:** TensorFlow/Keras
-* **Web App:** Gradio
+* **Dataset:** Kaggle & Google Images  
+* **CNN Implementation:** TensorFlow/Keras  
+* **Web App:** Gradio  
 
 ## 📩 Connect & Collaborate
 🔗 **GitHub**: [AdMub](https://github.com/AdMub)  
