@@ -2,6 +2,9 @@
 
 ![Face Mask Detection](https://github.com/user-attachments/assets/766dcafa-88b1-4b7a-8d39-9df6a794d6ec)  <!-- Replace with an actual image link -->
 
+<img width="723" alt="project banner" src="https://github.com/user-attachments/assets/ae1fe574-f015-4875-8245-d534bdf650f4" />
+
+
 ## 📌 Project Overview
 This project implements a **Face Mask Detection System** using **Deep Learning** and **Convolutional Neural Networks (CNNs)**. The model is trained on **7,553 labeled images** to classify whether a person is **wearing a mask or not**.
 
@@ -34,6 +37,18 @@ Then, download and extract the dataset:
 !kaggle datasets download omkargurav/face-mask-dataset
 unzip face-mask-dataset.zip
 ```
+
+
+## 🔄 Workflow 🔄
+<img width="567" alt="workflow" src="https://github.com/user-attachments/assets/f3962dcb-01be-4877-b9ff-574ada652cb9" />
+
+### Step-by-Step Process 🛠️
+#### 1️⃣ Data Collection & Preprocessing 📊
+#### 2️⃣ Building & Training the CNN Model 🧠
+#### 3️⃣ Model Evaluation & Fine-Tuning 📈
+#### 4️⃣ Saving & Loading the Trained Model 💾
+#### 5️⃣ Developing a Gradio Web App 🌐
+#### 6️⃣ Real-Time Mask Detection System 🎭
 
 ## 🔧 Install Dependencies
 Before running the project, install the required Python libraries:
