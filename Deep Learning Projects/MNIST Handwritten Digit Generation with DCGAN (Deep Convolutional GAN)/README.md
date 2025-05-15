@@ -2,7 +2,8 @@
 
 This project implements a **Deep Convolutional Generative Adversarial Network (DCGAN)** to generate handwritten digits that resemble those from the MNIST dataset. The generator learns to produce realistic images, while the discriminator learns to distinguish real from fake ones — both improving in a zero-sum game.
 
-![download](https://github.com/user-attachments/assets/af5216ec-66ed-43b6-b6ea-019180ea3fde)
+![DCGAN Output](https://raw.githubusercontent.com/AdMub/Data-Science-Project/main/Deep_Learning_Projects/MNIST_DCGAN/images/dcgan.gif)
+
 
 
 
