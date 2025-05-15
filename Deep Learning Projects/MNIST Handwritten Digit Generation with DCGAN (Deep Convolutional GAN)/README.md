@@ -2,7 +2,9 @@
 
 This project implements a **Deep Convolutional Generative Adversarial Network (DCGAN)** to generate handwritten digits that resemble those from the MNIST dataset. The generator learns to produce realistic images, while the discriminator learns to distinguish real from fake ones — both improving in a zero-sum game.
 
-![DCGAN Output GIF](dcgan.gif)
+![download](https://github.com/user-attachments/assets/af5216ec-66ed-43b6-b6ea-019180ea3fde)
+
+
 
 ---
 
@@ -114,6 +116,23 @@ This notebook is designed for Google Colab or Jupyter Notebook.
 - Saving model checkpoints and generating media
 
 
+## 📁 Project Structure
+
+```bash
+.
+├── dcgan.gif                 # Output animation
+├── training_checkpoints/     # Saved model weights
+├── image_at_epoch_XXXX.png   # Epoch-wise generated images
+├── main_notebook.ipynb       # Core code (optional)
+└── README.md
+```
 
 
+## 📚 References
+- [TensorFlow DCGAN Tutorial](https://www.tensorflow.org/tutorials/generative/dcgan)
 
+- [Goodfellow et al., 2014](https://arxiv.org/abs/1406.2661) — Original GAN paper
+
+## 💡 Author
+AdMub
+Feel free to connect on GitHub or LinkedIn
