@@ -22,7 +22,9 @@ The goal is to explore deep generative modeling through GANs, particularly the D
 
 Below is a visual summary of how the Generator and Discriminator interact during training.
 
+<div align="center">
 <img src="https://raw.githubusercontent.com/AdMub/Data-Science-Project/main/Deep_Learning_Projects/MNIST_DCGAN/images/Generative Adversarial Network Architecture.jpg" alt="DCGAN Architecture" width="600"/>
+</div>
 
 ---
 
@@ -61,7 +63,9 @@ MNIST_DCGAN/
 
 ## 🖼️ Training Progress (GIF)
 
-![DCGAN Output](https://raw.githubusercontent.com/AdMub/Data-Science-Project/main/Deep_Learning_Projects/MNIST_DCGAN/images/dcgan.gif)
+<div align="center">
+<img src="https://raw.githubusercontent.com/AdMub/Data-Science-Project/main/Deep_Learning_Projects/MNIST_DCGAN/images/dcgan.gif" alt="DCGAN Architecture" width="600"/>
+</div>
 
 ---
 
