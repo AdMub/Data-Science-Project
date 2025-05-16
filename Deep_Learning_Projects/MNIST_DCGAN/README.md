@@ -12,9 +12,19 @@ This project implements a **Deep Convolutional Generative Adversarial Network (D
   <img src="https://raw.githubusercontent.com/AdMub/Data-Science-Project/main/Deep_Learning_Projects/MNIST_DCGAN/images/dcgan.gif" alt="Generated Digits" width="600"/>
 </div>
 
+---
+
 ## 🚀 Project Overview
 
 The goal is to explore deep generative modeling through GANs, particularly the DCGAN architecture, by training a generator and discriminator in a competitive setting to create convincing digit images.
+
+---
+
+## 🧱 DCGAN Architecture Overview
+
+Below is a visual summary of how the Generator and Discriminator interact during training.
+
+<img src="https://raw.githubusercontent.com/AdMub/Data-Science-Project/main/Deep_Learning_Projects/MNIST_DCGAN/images/Generative Adversarial Network Architecture.jpg" alt="DCGAN Architecture" width="600"/>
 
 ---
 
