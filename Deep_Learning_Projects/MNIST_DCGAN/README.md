@@ -70,7 +70,7 @@ MNIST_DCGAN/
 The generator improves over time and produces increasingly realistic handwritten digits.
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/2e0e20cb-ed9a-46a0-b770-a95f5dd7c779" alt="Generated Digits" width="400"/>
+  <img src="https://github.com/user-attachments/assets/6a98e66a-a082-4f60-9a2c-95eca179b71a" alt="Generated Digits" width="400"/>
 </div>
 
 ---
