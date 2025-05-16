@@ -1,16 +1,14 @@
 # 🧠 MNIST Handwritten Digit Generation using DCGAN
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/594e6575-c233-41e3-bf2b-00cd442cbc66" alt="Generated Digits" width="600"/>
+  <img src="https://raw.githubusercontent.com/AdMub/Data-Science-Project/main/Deep_Learning_Projects/MNIST_DCGAN/images/image_title.png" alt="Image Title" width="600"/>
 </div>
 
----
+
 
 This project implements a **Deep Convolutional Generative Adversarial Network (DCGAN)** to generate realistic images of handwritten digits based on the **MNIST dataset**.
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/AdMub/Data-Science-Project/main/Deep_Learning_Projects/MNIST_DCGAN/images/dcgan.gif" alt="Generated Digits" width="600"/>
-</div>
+
 
 ---
 
@@ -58,6 +56,12 @@ MNIST_DCGAN/
 - **Generator**: learns to create images similar to MNIST digits from random noise.
 - **Discriminator**: distinguishes real MNIST images from fake ones.
 - Training is adversarial — the generator tries to fool the discriminator.
+
+---
+
+## 🖼️ Training Progress (GIF)
+
+![DCGAN Output](https://raw.githubusercontent.com/AdMub/Data-Science-Project/main/Deep_Learning_Projects/MNIST_DCGAN/images/dcgan.gif)
 
 ---
 
