@@ -1,140 +1,94 @@
-# 🧠 MNIST Handwritten Digit Generation with DCGAN
+# 🧠 MNIST Handwritten Digit Generation using DCGAN
 
-This project implements a **Deep Convolutional Generative Adversarial Network (DCGAN)** to generate handwritten digits that resemble those from the MNIST dataset. The generator learns to produce realistic images, while the discriminator learns to distinguish real from fake ones — both improving in a zero-sum game.
+This project implements a **Deep Convolutional Generative Adversarial Network (DCGAN)** to generate realistic images of handwritten digits based on the **MNIST dataset**.
 
-![DCGAN Output](https://raw.githubusercontent.com/AdMub/Data-Science-Project/main/Deep_Learning_Projects/MNIST_DCGAN/images/dcgan.gif)
+<img src="dcgan.gif" alt="Generated Digits" width="600"/>
 
+## 🚀 Project Overview
 
+The goal is to explore deep generative modeling through GANs, particularly the DCGAN architecture, by training a generator and discriminator in a competitive setting to create convincing digit images.
+
+---
+
+## 🧰 Technologies Used
+
+- 🧠 **PyTorch** — deep learning framework for model development
+- 🧮 **NumPy & Matplotlib** — for data manipulation and visualization
+- 🖼️ **MNIST Dataset** — standard dataset of 28x28 grayscale digit images
+- 🎨 **DCGAN Architecture** — convolutional neural networks in GANs
+- 📈 **GIF Generation** — visualize training progress of digit generation
+
+---
+
+## 📁 Project Structure
+
+```plain
+MNIST_DCGAN/
+├── dcgan.gif # Training progress animation
+├── images/ # Generated samples at intervals
+├── README.md # Project documentation
+├── dcgan_mnist.ipynb # Jupyter notebook (optional)
+├── dcgan_mnist.py # Python script (optional)
+└── saved_models/ # Checkpoints (if saved)
+```
 
 
 ---
 
-## 📦 Installation
+## 🧠 How DCGAN Works
 
-To run this notebook, you need the following libraries:
+- **Generator**: learns to create images similar to MNIST digits from random noise.
+- **Discriminator**: distinguishes real MNIST images from fake ones.
+- Training is adversarial — the generator tries to fool the discriminator.
 
-```bash
-pip install tensorflow imageio tensorflow-docs
-```
+---
 
-## 📂 Dataset
+## 🧪 Results
 
-We use the MNIST dataset containing 60,000 grayscale images of handwritten digits (0–9), each of size 28x28 pixels.
+The generator improves over time and produces increasingly realistic handwritten digits.
 
-```python
-(train_images, train_labels), (_, _) = tf.keras.datasets.mnist.load_data()
-```
-The images are reshaped and normalized to the range [-1, 1] to fit the tanh activation used in the generator.
+<div align="center">
+  <img src="images/fake_samples_epoch_50.png" alt="Fake Digits Epoch 50" width="400"/>
+</div>
 
+---
 
+## ⚙️ Setup Instructions
 
-## 🧱 Model Architecture
-### 🔷 Generator
-- Fully connected Dense layer → reshape into 7x7x256
-- 3 layers of Conv2DTranspose with BatchNorm and LeakyReLU
-- Final output: 28x28x1 grayscale image
-
-
-```python
-def make_generator_model():
-    ...
-```
+1. **Clone the repo**  
+   ```bash
+   git clone https://github.com/AdMub/Data-Science-Project.git
+   cd Data-Science-Project/Deep_Learning_Projects/MNIST_DCGAN
+   ```
 
 
-### 🔶 Discriminator
-- 2 Conv2D layers with LeakyReLU and Dropout
-- Flatten + Dense layer to classify real vs. fake
+2. **Install dependencies**  
+   ```bash
+    pip install torch torchvision matplotlib
+    ```
 
-```python
-def make_discriminator_model():
-    ...
-```
+3. **Run the project**
 
+- Jupyter Notebook: Open --dcgan_mnist.ipynb--
+- Python script:
 
+    ```bash
+        python dcgan_mnist.py
+     ```
 
-
-## 🧮 Loss Functions
-- Generator Loss: Binary cross-entropy comparing fake outputs to 'real' labels.
-- Discriminator Loss: Sum of real vs. real labels and fake vs. fake labels.
-
-```python
-cross_entropy = tf.keras.losses.BinaryCrossentropy(from_logits=True)
-```
-
-
-
-## 🧰 Optimizers & Checkpoints
-Adam optimizers with learning rate 1e-4 are used for both generator and discriminator.
-
-Checkpointing is done every 15 epochs:
-
-```python
-checkpoint_dir = './training_checkpoints'
-```
-
-
-
-## 🔁 Training Loop
-- Trains over **100 epochs**
-- Saves image samples at each epoch
-- Stores checkpoints and visualizes generator progress
-
-```python
-def train(dataset, epochs):
-    ...
-```
-
-
-
-## 🖼️ Generated Output & GIF
-After training, images are saved and compiled into a GIF:
-
-```python
-with imageio.get_writer("dcgan.gif", mode="I") as writer:
-    ...
-```
-
-The GIF helps you visually track how the model improves across epochs.
-
-
-
-## 📊 Results
-Here’s an example of generated digits after training:
-
-
-
-## ▶️ Running the Project
-This notebook is designed for Google Colab or Jupyter Notebook.
-
-- Run all cells from start to finish.
-- At the end, a GIF showing generated digit evolution is displayed.
-- Checkpoints are saved locally.
-
-## 🎓 What You’ll Learn
-- Fundamentals of GANs and DCGAN architecture
-- Building custom generator/discriminator models
-- Visualizing GAN outputs dynamically
-- Saving model checkpoints and generating media
-
-
-## 📁 Project Structure
-
-```bash
-.
-├── dcgan.gif                 # Output animation
-├── training_checkpoints/     # Saved model weights
-├── image_at_epoch_XXXX.png   # Epoch-wise generated images
-├── main_notebook.ipynb       # Core code (optional)
-└── README.md
-```
-
-
-## 📚 References
+## **📚 References**
 - [TensorFlow DCGAN Tutorial](https://www.tensorflow.org/tutorials/generative/dcgan)
-
 - [Goodfellow et al., 2014](https://arxiv.org/abs/1406.2661) — Original GAN paper
+- [MNIST Dataset](https://www.kaggle.com/datasets/hojjatk/mnist-dataset)
 
-## 💡 Author
-AdMub
-Feel free to connect on GitHub or LinkedIn
+## **🙋‍♂️ Author**
+Mubarak Adisa(AdMub)
 
+📧 admub465@gmail.com
+
+🔗 [LinkedIn](https://www.linkedin.com/in/mubarak-adisa-334a441b6/)
+
+📂 [GitHub Portfolio](https://github.com/AdMub)
+
+## **🌟 Acknowledgements**
+Special thanks to the Sidhardhan, deep learning community and open-source contributors for enabling this educational project.
