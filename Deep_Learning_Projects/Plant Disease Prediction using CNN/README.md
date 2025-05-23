@@ -97,9 +97,9 @@ Using the publicly available **PlantVillage dataset**, the model classifies leav
 ---
 
 ## 👤 Author
-Mubarak Adisa
-AI & Deep Learning Enthusiast | Civil & Environmental Engineer
-🔗 GitHub: [AdMub](https://github.com/AdMub)
+- Mubarak Adisa
+- AI & Deep Learning Enthusiast | Civil & Environmental Engineer
+- 🔗 GitHub: [AdMub](https://github.com/AdMub)
 
 ---
 
