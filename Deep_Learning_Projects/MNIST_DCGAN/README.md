@@ -4,6 +4,13 @@
   <img src="https://raw.githubusercontent.com/AdMub/Data-Science-Project/main/Deep_Learning_Projects/MNIST_DCGAN/images/image_title.png" alt="Image Title" width="600"/>
 </div>
 
+---
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/8cd82499-c9d3-491c-b851-c125cde1da6c" alt="Generated Digits" width="400"/>
+</div>
+</div>
+
 
 
 This project implements a **Deep Convolutional Generative Adversarial Network (DCGAN)** to generate realistic images of handwritten digits based on the **MNIST dataset**.
