@@ -1,5 +1,8 @@
 # 🌿 PlantVillage: CNN-Based Plant Disease Detection
 
+![image](https://github.com/user-attachments/assets/e79e0571-207d-423f-a54f-656c11c37489)
+
+
 A deep learning project designed to detect and classify **plant leaf diseases** using a custom **Convolutional Neural Network (CNN)** trained on the **PlantVillage Dataset**.
 
 ---
