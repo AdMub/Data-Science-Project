@@ -46,7 +46,7 @@ Welcome to my curated portfolio of end-to-end Data Science, Machine Learning, an
 
 ## ⚙️ Tech Stack & Tools
 - **Languages**: Python, Jupyter Notebooks
-- **ML Libraries**: scikit-learn, XGBoost, LightGBM
+- **ML Libraries**: scikit-learn, XGBoost, LightGBM, Ensemble tools, KMeans
 - **DL Frameworks**: TensorFlow, Keras
 - **Visualization**: Matplotlib, Seaborn
 - **Deployment**: Gradio, Hugging Face Spaces
