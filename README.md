@@ -14,7 +14,13 @@ Welcome to my curated portfolio of end-to-end Data Science, Machine Learning, an
 | [😷 Face Mask Detection](./Deep_Learning_Projects/Face_Mask_Detection_using_CNN) | Detects whether people are wearing masks in real-time images. |
 | [🐱🐶 Cat vs Dog Classification](./Deep_Learning_Projects/Cat_and_Dog_Classification_using_Transfer_Learning) | Binary classification using transfer learning (VGG16). |
 | [🔬 Breast Cancer Detection](./Deep_Learning_Projects/Breast_Classification_using_Neural_Network) | Classification of breast cancer tumors using neural networks. |
+| [🔬 Breast Cancer Classification (PyTorch)](./Deep_Learning_Projects/Breast_Classification_with_PyTorch) | Breast cancer prediction using a neural network built with PyTorch. |
 | [🚀 CIFAR-10 Object Recognition](./Deep_Learning_Projects/CIFAR_10_Object_Recognition_using_ResNet50) | Multiclass image classification using ResNet50 on CIFAR-10. |
+| [🌐 Machine Learning Language Translation](./Deep_Learning_Projects/Machine_Learning_Language_Translation) | Translates text between languages using seq2seq deep learning models. |
+| [🧠 Concrete(Compressive_&_Tensile Strength Prediction](./Deep_Learning_Projects/Compressive_&_Tensile_Strength_using_ANN_Strength) | Evaluate compressive and tensile strength of concrete using ANN. |
+| [📖 Sentiment Analysis with LSTM](./Deep_Learning_Projects/Sentiment_Analysis_using_LSTM) | Predicts text sentiment using LSTM-based recurrent neural networks. |
+| [👗 Fashion MNIST Classification](./Deep_Learning_Projects/Fashion_MNIST_Image_Classification) | 	Classifies clothing items using a CNN on the Fashion-MNIST dataset. |
+
 
 ---
 
