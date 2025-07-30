@@ -8,7 +8,7 @@ Welcome to my curated portfolio of end-to-end Data Science, Machine Learning, an
 
 | Project | Description |
 |--------|-------------|
-| [🧠 MNIST Digit Classification](./Deep_Learning_Projects/MNIST_Digit_Handwritten_Classification) | Classification of handwritten digits using CNN and deployment with Gradio. |
+| [🧠 MNIST Digit Classification](./Deep_Learning_Projects/MNIST%20Digit%20Handwritten%20Classification) | Classification of handwritten digits using CNN and deployment with Gradio. |
 | [🎨 MNIST Digit Generation with DCGAN](./Deep_Learning_Projects/MNIST_DCGAN) | Generating handwritten digits using Deep Convolutional GANs (DCGAN). |
 | [🌿 Plant Disease Detection](./Deep_Learning_Projects/Plant_Disease_Prediction_using_CNN) | A CNN model to detect plant diseases from leaf images. |
 | [😷 Face Mask Detection](./Deep_Learning_Projects/Face_Mask_Detection_using_CNN) | Detects whether people are wearing masks in real-time images. |
