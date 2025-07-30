@@ -9,17 +9,17 @@ Welcome to my curated portfolio of end-to-end Data Science, Machine Learning, an
 | Project | Description |
 |--------|-------------|
 | [🧠 MNIST Digit Classification](./Deep_Learning_Projects/MNIST%20Digit%20Handwritten%20Classification) | Classification of handwritten digits using CNN and deployment with Gradio. |
-| [🎨 MNIST Digit Generation with DCGAN](./Deep_Learning_Projects/MNIST_DCGAN) | Generating handwritten digits using Deep Convolutional GANs (DCGAN). |
-| [🌿 Plant Disease Detection](./Deep_Learning_Projects/Plant_Disease_Prediction_using_CNN) | A CNN model to detect plant diseases from leaf images. |
-| [😷 Face Mask Detection](./Deep_Learning_Projects/Face_Mask_Detection_using_CNN) | Detects whether people are wearing masks in real-time images. |
-| [🐱🐶 Cat vs Dog Classification](./Deep_Learning_Projects/Cat_and_Dog_Classification_using_Transfer_Learning) | Binary classification using transfer learning (VGG16). |
-| [🔬 Breast Cancer Detection](./Deep_Learning_Projects/Breast_Classification_using_Neural_Network) | Classification of breast cancer tumors using neural networks. |
-| [🔬 Breast Cancer Classification (PyTorch)](./Deep_Learning_Projects/Breast_Classification_with_PyTorch) | Breast cancer prediction using a neural network built with PyTorch. |
+| [🎨 MNIST Digit Generation with DCGAN](./Deep_Learning_Projects/MNIST%20DCGAN) | Generating handwritten digits using Deep Convolutional GANs (DCGAN). |
+| [🌿 Plant Disease Detection](./Deep_Learning_Projects/Plant%20Disease%20Prediction%20using%20CNN) | A CNN model to detect plant diseases from leaf images. |
+| [😷 Face Mask Detection](./Deep_Learning_Projects/Face%20Mask%20Detection%20using%20CNN) | Detects whether people are wearing masks in real-time images. |
+| [🐱🐶 Cat vs Dog Classification](./Deep_Learning_Projects/Cat%20and%20Dog%20Classification%20using%20Transfer%20Learning) | Binary classification using transfer learning (VGG16). |
+| [🔬 Breast Cancer Detection](./Deep_Learning_Projects/Breast_Classification%20using%20Neural%20Network) | Classification of breast cancer tumors using neural networks. |
+| [🔬 Breast Cancer Classification (PyTorch)](./Deep_Learning_Projects/Breast%20Classification%20with%20PyTorch) | Breast cancer prediction using a neural network built with PyTorch. |
 | [🚀 CIFAR-10 Object Recognition](./Deep_Learning_Projects/CIFAR_10_Object_Recognition_using_ResNet50) | Multiclass image classification using ResNet50 on CIFAR-10. |
 | [🌐 Machine Learning Language Translation](./Deep_Learning_Projects/Machine_Learning_Language_Translation) | Translates text between languages using seq2seq deep learning models. |
-| [🧠 Concrete(Compressive_&_Tensile Strength Prediction](./Deep_Learning_Projects/Compressive_&_Tensile_Strength_using_ANN_Strength) | Evaluate compressive and tensile strength of concrete using ANN. |
-| [📖 Sentiment Analysis with LSTM](./Deep_Learning_Projects/Sentiment_Analysis_using_LSTM) | Predicts text sentiment using LSTM-based recurrent neural networks. |
-| [👗 Fashion MNIST Classification](./Deep_Learning_Projects/Fashion_MNIST_Image_Classification) | 	Classifies clothing items using a CNN on the Fashion-MNIST dataset. |
+| [🧠 Concrete(Compressive_&_Tensile) Strength Prediction](./Deep_Learning_Projects/Compressive%20&%20Tensile%20Strength%20using%20ANN%20Strength) | Evaluate compressive and tensile strength of concrete using ANN. |
+| [📖 Sentiment Analysis with LSTM](./Deep_Learning_Projects/Sentiment%20Analysis%20using%20LSTM) | Predicts text sentiment using LSTM-based recurrent neural networks. |
+| [👗 Fashion MNIST Classification](./Deep_Learning_Projects/Fashion%20MNIST%20Image%20Classification) | 	Classifies clothing items using a CNN on the Fashion-MNIST dataset. |
 
 
 ---
